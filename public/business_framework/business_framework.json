@@ -1,0 +1,19 @@
+{
+  "framework_version": "2.4.0",
+  "framework_name": "ASTRO LAB FAB Autonomous Enterprise Business Framework",
+  "description": "11-module complete business execution, AI prompt engineering, SOP, automation, and validation framework with 33-field substep granularity.",
+  "last_updated": "2026-07-22",
+  "modules": {
+    "00_schema": "00_schema.json",
+    "01_business_plan": "01_business_plan.json",
+    "02_business_models": "02_business_models.json",
+    "03_pipeline": "03_pipeline.json",
+    "04_sops": "04_sops.json",
+    "05_prompts": "05_prompts.json",
+    "06_scripts": "06_scripts.json",
+    "07_workflows": "07_workflows.json",
+    "08_validation": "08_validation.json",
+    "09_assets": "09_assets.json",
+    "10_outputs": "10_outputs.json"
+  }
+}

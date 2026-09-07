@@ -1,0 +1,15 @@
+{
+  "module": "03_pipeline",
+  "title": "145-Step Startup Execution Pipeline",
+  "total_phases": 10,
+  "total_steps": 145,
+  "substep_structure_33_fields": [
+    "id", "title", "description", "objective", "prerequisites", "dependencies",
+    "inputs", "outputs", "required_files", "generated_files", "estimated_time",
+    "difficulty", "automation_level", "ai_required", "human_required", "primary_model",
+    "fallback_model", "prompt", "context", "validation_prompt", "python_script",
+    "bash_script", "sql_script", "n8n_workflow", "docker_container", "api_calls",
+    "verification", "expected_output", "quality_checklist", "rollback", "retry",
+    "next_substep", "references"
+  ]
+}

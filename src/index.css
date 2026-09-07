@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+@layer base {
+  :root, [data-theme="dark"] {
+    --bg: #08090a;
+    --panel: #121417;
+    --panel-secondary: #0c0e12;
+    --panel-hover: #1a1d24;
+    --accent: #00ff9d;
+    --text-primary: #f1f5f9;
+    --text-secondary: #888e96;
+    --text-dim: #64748b;
+    --border: #1f2228;
+    --border-bright: #2d3139;
+    --card-bg: #121417;
+    --subtle-glow: rgba(0, 255, 157, 0.15);
+  }
+
+  [data-theme="light"] {
+    --bg: #f8fafc;
+    --panel: #ffffff;
+    --panel-secondary: #f1f5f9;
+    --panel-hover: #e2e8f0;
+    --accent: #059669;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-dim: #64748b;
+    --border: #e2e8f0;
+    --border-bright: #cbd5e1;
+    --card-bg: #ffffff;
+    --subtle-glow: rgba(5, 150, 105, 0.1);
+  }
+
+  [data-theme="emerald_cyber"] {
+    --bg: #030806;
+    --panel: #06140e;
+    --panel-secondary: #040e0a;
+    --panel-hover: #0a2419;
+    --accent: #00ff9d;
+    --text-primary: #ecfdf5;
+    --text-secondary: #6ee7b7;
+    --text-dim: #34d399;
+    --border: #0f3d28;
+    --border-bright: #10b981;
+    --card-bg: #06140e;
+    --subtle-glow: rgba(0, 255, 157, 0.35);
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+}
+
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.bento-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.bento-card:hover {
+  border-color: rgba(0, 255, 157, 0.35);
+}
+
+[data-theme="light"] .bento-card:hover {
+  border-color: rgba(5, 150, 105, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.status-glow {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00ff9d;
+  box-shadow: 0 0 10px #00ff9d;
+  display: inline-block;
+}
+
+.status-glow-amber {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f59e0b;
+  box-shadow: 0 0 10px #f59e0b;
+  display: inline-block;
+}
+
+.status-glow-rose {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #f43f5e;
+  box-shadow: 0 0 10px #f43f5e;
+  display: inline-block;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

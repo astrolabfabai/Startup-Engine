@@ -1,0 +1,11 @@
+{
+  "module": "09_assets",
+  "title": "Creative AI Studio Specifications & Templates",
+  "asset_types": ["business_cards", "logo", "website", "ad_15s", "ad_30s", "ad_60s"],
+  "theme": {
+    "bg": "#08090a",
+    "card": "#121417",
+    "border": "#1f2228",
+    "accent": "#00ff9d"
+  }
+}

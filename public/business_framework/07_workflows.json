@@ -1,0 +1,7 @@
+{
+  "module": "07_workflows",
+  "title": "n8n Workflows, Docker Containers & API Endpoints",
+  "n8n_workflows": ["Step Execution Pipeline Webhook", "Financial Audit Logger"],
+  "docker_containers": ["astrolabfab/engine:2.4"],
+  "api_endpoints": ["/api/gemini/step-execute", "/api/business-plan/generate", "/api/creative/generate"]
+}

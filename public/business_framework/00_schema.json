@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AstroLabFabBusinessFrameworkSchema",
+  "description": "JSON Schema defining the 11-module ASTRO LAB FAB Business Framework and granular 33-field Substep structure.",
+  "type": "object",
+  "properties": {
+    "substep_schema": {
+      "type": "object",
+      "required": [
+        "id", "title", "description", "objective", "prerequisites", "dependencies",
+        "inputs", "outputs", "required_files", "generated_files", "estimated_time",
+        "difficulty", "automation_level", "ai_required", "human_required", "primary_model",
+        "fallback_model", "prompt", "context", "validation_prompt", "python_script",
+        "bash_script", "sql_script", "n8n_workflow", "docker_container", "api_calls",
+        "verification", "expected_output", "quality_checklist", "rollback", "retry",
+        "next_substep", "references"
+      ],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "objective": { "type": "string" },
+        "prerequisites": { "type": "array", "items": { "type": "string" } },
+        "dependencies": { "type": "array", "items": { "type": "string" } },
+        "inputs": { "type": "array", "items": { "type": "string" } },
+        "outputs": { "type": "array", "items": { "type": "string" } },
+        "required_files": { "type": "array", "items": { "type": "string" } },
+        "generated_files": { "type": "array", "items": { "type": "string" } },
+        "estimated_time": { "type": "string" },
+        "difficulty": { "type": "string", "enum": ["Beginner", "Intermediate", "Advanced"] },
+        "automation_level": { "type": "string", "enum": ["Fully Automated", "Semi-Automated", "Manual"] },
+        "ai_required": { "type": "boolean" },
+        "human_required": { "type": "boolean" },
+        "primary_model": { "type": "string" },
+        "fallback_model": { "type": "string" },
+        "prompt": { "type": "string" },
+        "context": { "type": "string" },
+        "validation_prompt": { "type": "string" },
+        "python_script": { "type": "string" },
+        "bash_script": { "type": "string" },
+        "sql_script": { "type": "string" },
+        "n8n_workflow": { "type": "string" },
+        "docker_container": { "type": "string" },
+        "api_calls": { "type": "array" },
+        "verification": { "type": "string" },
+        "expected_output": { "type": "string" },
+        "quality_checklist": { "type": "array", "items": { "type": "string" } },
+        "rollback": { "type": "string" },
+        "retry": { "type": "object" },
+        "next_substep": { "type": ["string", "null"] },
+        "references": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

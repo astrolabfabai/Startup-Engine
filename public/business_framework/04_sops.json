@@ -1,0 +1,11 @@
+{
+  "module": "04_sops",
+  "title": "Standard Operating Procedures & CLI Commands",
+  "sops": [
+    { "id": "SOP-001", "name": "Automated Data Ingestion & Customer Validation" },
+    { "id": "SOP-002", "name": "AI Statement of Work (SOW) Audit Protocol" },
+    { "id": "SOP-003", "name": "IRS Tax Deduction & Mileage Calculation Engine" },
+    { "id": "SOP-004", "name": "Grants.gov API Opportunity Ingestion" },
+    { "id": "SOP-005", "name": "Creative Brand Asset & Video Ad Blueprinting" }
+  ]
+}

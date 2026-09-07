@@ -1,0 +1,9 @@
+{
+  "module": "06_scripts",
+  "title": "Python, Bash & SQL Automation Script Library",
+  "scripts": [
+    { "type": "bash", "name": "run_pipeline.sh", "description": "CLI pipeline runner" },
+    { "type": "python", "name": "sow_audit.py", "description": "SOW verification worker" },
+    { "type": "sql", "name": "logs_schema.sql", "description": "PostgreSQL database audit schema" }
+  ]
+}

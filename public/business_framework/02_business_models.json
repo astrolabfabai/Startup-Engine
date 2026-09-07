@@ -1,0 +1,14 @@
+{
+  "module": "02_business_models",
+  "title": "Enterprise Business Models & Revenue Architectures",
+  "models": [
+    "Software as a Service (SaaS / Enterprise)",
+    "High-Margin Marketplace / Platform",
+    "Direct-to-Consumer (D2C) E-Commerce",
+    "Agency / Tech-Enabled Consulting Service",
+    "Freemium Consumer App with In-App Subscriptions",
+    "Hardware-as-a-Service (HaaS) + Recurring Software",
+    "Franchise / Licensing Enterprise Network",
+    "Open Source Core with Enterprise Premium Plugins"
+  ]
+}

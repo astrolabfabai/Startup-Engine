@@ -1,0 +1,10 @@
+{
+  "module": "05_prompts",
+  "title": "System Prompts, AI Directives & Step Guidance",
+  "models": ["gemini-2.5-flash", "deepseek-coder:14b", "qwen2.5-coder:7b"],
+  "prompts": {
+    "system": "Act as an AI Executive Advisor and Principal Enterprise Architect for ASTRO LAB FAB.",
+    "substep_execute": "Execute substep {id} for step #{stepNumber} with business context.",
+    "validation": "Verify artifact against 5-point quality checklist and audit requirements."
+  }
+}

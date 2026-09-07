@@ -1,0 +1,16 @@
+{
+  "module": "08_validation",
+  "title": "Verification Checklists, Rollback & Retry Protocols",
+  "quality_checklist": [
+    "Valid JSON format with no syntax errors",
+    "All 6 valuation drivers calculated and non-zero",
+    "Decision gate evaluation returned GO or REVISE",
+    "Execution log written to disk without fatal warnings",
+    "Security and license requirements met"
+  ],
+  "retry_spec": {
+    "max_attempts": 3,
+    "backoff_seconds": 5,
+    "fallback_model": "deepseek-coder:14b"
+  }
+}

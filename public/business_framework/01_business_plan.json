@@ -1,0 +1,12 @@
+{
+  "module": "01_business_plan",
+  "title": "Formal Business Plan Generator & Section Specs",
+  "sections": [
+    { "id": "EX_SUM", "title": "Executive Summary & Vision" },
+    { "id": "MKT_ANALYSIS", "title": "Market Analysis, TAM/SAM/SOM & Competitive Moats" },
+    { "id": "PRODUCT_LINE", "title": "Product Architecture & Value Propositions" },
+    { "id": "MKTG_SALES", "title": "Marketing Strategy & CAC/LTV Projections" },
+    { "id": "OPERATIONS", "title": "Operations, Legal Structure & Key Hires" },
+    { "id": "FINANCIALS", "title": "Financial Projections, Valuation & Tax Optimization" }
+  ]
+}
